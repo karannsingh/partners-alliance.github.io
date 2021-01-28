@@ -1,0 +1,338 @@
+body {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #151423 ;
+}
+
+h1 {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.btn-primary.btn-filled {
+    background-color: #3C53A3;
+    border: 2px solid #3C53A3;
+}
+
+.banner {
+    background-color: black;
+    text-align: center;
+    font-size: 15px;
+    padding: 4px;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+}
+
+.logo.logo-wide {
+    max-width: 100px;
+}
+
+
+section.blue {
+    background: #151423;
+}
+
+footer.details {
+    background: #000000;
+}
+
+.top-bar {
+    top: 35px;
+}
+
+.utility-menu {
+    margin-top: 12px;
+}
+
+.menu li {
+    margin-right: 30px;
+}
+
+.menu li a {
+    padding-bottom: 0;
+    text-transform: capitalize;
+}
+
+.space-bottom-small {
+    margin-bottom: 10px;
+}
+
+.testimonial {
+    padding: 20px;
+}
+
+.navbar-right{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.testimonial div {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    background: #2e1c55;
+}
+
+.feature {
+    border: 1px solid #5D678C;
+    text-align: center;
+    padding: 25px 10px;
+    border-radius: 5px;
+    min-height: 220px;
+}
+
+.why-text {
+    padding-top: 220px;
+}
+
+p.lead {
+    font-size: 15px;
+}
+
+#features {
+    background-image: url("../img/colored-triangles.png");
+    bottom: 0;
+    background-repeat: no-repeat !important;
+    background-position: -50% 81% !important;
+    background-size: auto !important;
+}
+
+.feature p {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.feature .icon {
+    color: #3C53A3;
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+footer.details .sub {
+    color: #dddddd;
+}
+
+.spinny-words {
+    display: inline-block;
+    min-width: 170px;
+    text-align: left;
+}
+
+.spinny-words span {
+    position: absolute;
+    top: -0px;
+    opacity: 0;
+    animation: rotateWord 9s linear infinite 0s;
+}
+
+.spinny-words span:nth-child(2) {
+    animation-delay: 3s;
+}
+
+.spinny-words span:nth-child(3) {
+    animation-delay: 6s;
+}
+
+@keyframes rotateWord {
+    0% {
+        opacity: 0;
+    }
+    5% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    10% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    25% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    30% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.blog-item {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 10px;
+    border: 1px solid #566;
+    border-radius: 5px;
+    min-height: 400px;
+}
+
+.blog-item .card-title a {
+    color: white;
+}
+
+.icon {
+    color: #3C53A3;
+}
+
+.hide-l {
+    display: block;
+}
+
+.hide-s {
+    display: none;
+}
+
+.contact-us h1, .social-media h1 {
+    margin-bottom: 20px;
+}
+
+footer.details .logo {
+    margin-bottom: 25px;
+}
+
+
+@media (min-width: 1280px) {
+    .fullscreen-element{
+        height: 720px!important;
+    }
+
+    .background-image-holder, .foreground-image-holder{
+        width: 1280px;
+        top:0!important;
+        height: 720px!important;
+        background-size: auto;
+    }
+}
+
+@media (min-width: 1440px) {
+    .fullscreen-element{
+        height: 810px!important;
+    }
+
+    .background-image-holder, .foreground-image-holder{
+        width: 1440px;
+        top:0!important;
+        height: 810px!important;
+        background-size: auto;
+    }
+}
+
+@media (min-width: 1920px) {
+    .fullscreen-element{
+        height: 1080px!important;
+    }
+
+    .background-image-holder, .foreground-image-holder{
+        width: 1920px;
+        top:0!important;
+        height: 1080px!important;
+        background-size: auto;
+    }
+}
+
+@media (max-width:760px){
+    .navbar-right{
+        display:block !important;
+    }
+
+    .navbar-right li a{
+        text-align:center !important;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .why-text {
+        padding-top: 120px;
+    }
+
+
+    .features-list {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 639px) {
+
+    p.lead {
+        font-size: 14px;
+    }
+
+    .feature p {
+        font-size: 13px;
+    }
+
+    .feature {
+        min-height: 160px;
+    }
+
+    .blog-item {
+        margin-bottom: 20px;
+    }
+
+    .subtitle {
+        width: 240px;
+    }
+
+    .hide-l {
+        display: none;
+    }
+
+    .hide-s {
+        display: block;
+    }
+
+    .why-text {
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    #features{
+        text-align: center;
+    }
+
+    .contact-us {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .contact-us p{
+        text-align: left;
+        width: fit-content;
+        margin: auto;
+    }
+
+    .about-nife {
+        margin-bottom: 40px;
+    }
+
+    .social-media {
+        margin-bottom: 30px;
+    }
+
+    .background-image-holder-left {
+        display: none;
+    }
+
+    footer.details h1, footer.details h1 {
+        margin-bottom: 10px;
+    }
+
+
+}
+
+
+
+
+
+
+
