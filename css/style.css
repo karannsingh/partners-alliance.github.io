@@ -477,10 +477,11 @@ a{
     color:black !important;
     text-transform: uppercase;
     cursor: pointer;
+    margin-top: -1px;
 }
 .email-box .btn:hover{
-    background: white!important;
-    color:black !important;
+    background: black!important;
+    color: white!important;
     cursor: pointer;
 }
 
@@ -537,11 +538,26 @@ a{
     height: 90px;
 }
 
+.lead-text h1{
+    font-size: 32px!important;
+}
+
+.lead-text h2{
+    font-size: 18px!important;
+}
+
 }
 
 @media(max-width: 479px){
 .alli-img img{
     height: 70px;
+}
+.lead-text h1{
+    font-size: 32px!important;
+}
+
+.lead-text h2{
+    font-size: 18px!important;
 }
 
 }
