@@ -513,6 +513,18 @@ a{
     margin-bottom:15px;
 }
 
+.card-img{
+    padding:10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    border-width: 3px;
+    margin-bottom:15px;
+}
+
+.card-img img{
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
 /*//////Responsive//////*/
 
 @media(min-width: 992px){
