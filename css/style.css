@@ -581,3 +581,58 @@ a{
 .text-black{
     color: black!important;
 }
+
+.list-img-1{
+    margin: 0;
+    padding: 16px 0 16px 50px;
+    list-style: none;
+    background-image: url("../img/isp.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 40px;
+}
+.list-img-2{
+    margin: 0;
+    padding: 16px 0 16px 50px;
+    list-style: none;
+    background-image: url("../img/MobileNetworks.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 40px;
+}
+.list-img-3{
+    margin: 0;
+    padding: 16px 0 16px 50px;
+    list-style: none;
+    background-image: url("../img/PrivateClouds.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 40px;
+}
+.list-img-4{
+    margin: 0;
+    padding: 16px 0 16px 50px;
+    list-style: none;
+    background-image: url("../img/PublicClouds.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 40px;
+}
+.list-img-5{
+    margin: 0;
+    padding: 16px 0 16px 50px;
+    list-style: none;
+    background-image: url("../img/CDNs.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 40px;
+}
+.list-img-6{
+    margin: 0;
+    padding: 16px 0 16px 50px;
+    list-style: none;
+    background-image: url("../img/Enterprises.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 40px;
+}
